@@ -80,7 +80,7 @@ class Game():
         self.highscore = 0
         self.post_interval = 5
         self.gameover_interval = 2
-        self.default_server_url = configs['server_url']
+        self.default_server_url = configs['custom_server_url']
         self.custom_server_url = configs['custom_server_url']
         self.server_url = self.default_server_url
         self.player_name = configs['player_name']
