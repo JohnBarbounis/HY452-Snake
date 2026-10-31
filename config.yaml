@@ -7,8 +7,8 @@ custom_server_url: https://upnu0avpn0.execute-api.us-east-1.amazonaws.com/alpha
 # For your convenience, you can add your credentials here
 # By doing so, you will not have to enter them every time you run the game
 # Default values: local Player
-player_name: "Player"
+player_name: "johnbarb"
 
-email: "player@csd.uoc.gr"
+email: "john213123@csd.uoc.gr"
 
-password: "password"
+password: "anekdoto1234"

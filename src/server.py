@@ -22,7 +22,7 @@ class ScoreServer():
         post_thread.start()
         
     def _post_score_thread(self, data):
-        response = requests.post(self.url + '/leaderboard/score', json=data)
+        response = requests.post(self.url + '/Leaderboard/score', json=data)
         if response.status_code == 200:
             print("Score posted successfully")
             print(f'Response: {response.text}')
@@ -91,7 +91,7 @@ class ScoreServer():
     def get_leaderboard(self):
         print('Getting leaderboard from server')
         try:
-            response = requests.get(self.url + '/leaderboard')
+            response = requests.get(self.url + '/Leaderboard')
             response.raise_for_status()
         except RequestException as e:
             print(f'Error: {e}')
