@@ -9,6 +9,6 @@ custom_server_url: https://upnu0avpn0.execute-api.us-east-1.amazonaws.com/alpha
 # Default values: local Player
 player_name: "johnbarb"
 
-email: "john213123@csd.uoc.gr"
+email: "csd1234@csd.uoc.gr"
 
-password: "anekdoto1234"
+password: "secret123"
